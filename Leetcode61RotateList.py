@@ -15,6 +15,7 @@ Author: Tianquan Guo
 Date: 12/29/2020
 '''
 
+import ListNode
 
 # Definition for singly-linked list.
 # class ListNode:
