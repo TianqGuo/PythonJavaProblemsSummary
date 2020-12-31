@@ -72,6 +72,9 @@ Date: 12/30/2020
 #         self.key = x
 #         self.neighbors = []
 from collections import deque
+from typing import List
+
+
 class Solution(object):
     #### Solution for laicode ####
     def bipartite(self, graph):
