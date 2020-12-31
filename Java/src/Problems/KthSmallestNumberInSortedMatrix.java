@@ -1,5 +1,6 @@
 /**
 26. Kth Smallest Number In Sorted Matrix (laicode)
+378. Kth Smallest Element in a Sorted Matrix (leetcode)
 
 Given a matrix of size N x M. For each row the elements are sorted in ascending order, and for each column the elements are also sorted in ascending order. Find the Kth smallest number in it.
 
