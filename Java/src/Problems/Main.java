@@ -1,3 +1,11 @@
+/**
+This main class is created for running manual tests.
+
+Answer Author: Tianquan Guo
+Date: 12/31/2020
+ */
+
+
 package Problems;
 
 public class Main {

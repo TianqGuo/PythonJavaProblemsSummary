@@ -1,3 +1,10 @@
+/**
+This class is created for JUnit tests
+
+Answer Author: Tianquan Guo
+Date: 12/31/2020
+ */
+
 package Problems;
 
 import static org.junit.Assert.assertEquals;

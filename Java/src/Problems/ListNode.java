@@ -1,3 +1,10 @@
+/**
+ListNode Definition
+
+Answer Author: Tianquan Guo
+Date: 12/31/2020
+ */
+
 package Problems;
 
 public class ListNode {
