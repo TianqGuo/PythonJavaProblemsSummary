@@ -15,6 +15,10 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 Author: Tianquan Guo
 Date: 12/27/2020
 '''
+import sys
+from typing import List
+
+
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         if not nums:
