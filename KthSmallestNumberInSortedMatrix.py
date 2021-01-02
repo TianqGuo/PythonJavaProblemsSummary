@@ -21,7 +21,7 @@ the 5th smallest number is 4
 the 8th smallest number is 6
 
 Author: Tianquan Guo
-Date: 12/31/2020
+Date: 1/1/2021
 '''
 from heapq import heappop
 from heapq import heappush
