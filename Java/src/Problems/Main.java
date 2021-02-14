@@ -16,8 +16,12 @@ public class Main {
 //		All_subsets_1 as1 = new All_subsets_1();
 //		System.out.println(as1.subSets("abc"));
 		
-//		ReorderArray
-		ReorderArray ra = new ReorderArray();
-		System.out.println(Arrays.toString(ra.reorder(new int[] {1, 2, 3, 4, 5, 6, 7, 8})));
+////		ReorderArray
+//		ReorderArray ra = new ReorderArray();
+//		System.out.println(Arrays.toString(ra.reorder(new int[] {1, 2, 3, 4, 5, 6, 7, 8})));
+		
+//		CompressString2
+		CompressString2 cs2 = new CompressString2();
+		System.out.println(cs2.compressString2("abbcccdeee"));
 	}
 }
