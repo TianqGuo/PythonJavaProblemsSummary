@@ -24,8 +24,13 @@ public class Main {
 //		CompressString2 cs2 = new CompressString2();
 //		System.out.println(cs2.compressString2("abbcccdeee"));
 		
-//		MinCombineSands
-		MinCombineSands mcs = new MinCombineSands();
-		System.out.println(mcs.minCombine(new int[] {13, 7, 8, 10}));
+////		MinCombineSands
+//		MinCombineSands mcs = new MinCombineSands();
+//		System.out.println(mcs.minCombine(new int[] {13, 7, 8, 10}));
+		
+//		DecompressString2
+		DecompressString2 ds2 = new DecompressString2();
+		System.out.println(ds2.decompress("a1d14c5"));
+		System.out.println(ds2.decompress("a1d0c5"));
 	}
 }
