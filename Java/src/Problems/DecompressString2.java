@@ -23,17 +23,22 @@ package Problems;
 
 public class DecompressString2 {
 	public String decompress(String input) {
+//		initialize parameters
 		char[] array = input.toCharArray();
 		StringBuilder ans = new StringBuilder();
 		int cur = 0;
 		
+//		note use while is better than for for this case
 		while (cur < array.length){
+//			increase cur and reset curChar and curCount
 			char curChar = array[cur++];
 			String curCount = "";
+//			if current char is numeric continue adding to curCount
 			while (cur < array.length && array[cur] >= '0' && array[cur] <= '9') {
 				curCount += array[cur++];
 			} 
 			
+//			add all letters to ans
 			for (int i = 0; i < Integer.valueOf(curCount); i++) {
 				ans.append(curChar);
 			}

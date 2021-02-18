@@ -28,9 +28,12 @@ public class Main {
 //		MinCombineSands mcs = new MinCombineSands();
 //		System.out.println(mcs.minCombine(new int[] {13, 7, 8, 10}));
 		
-//		DecompressString2
-		DecompressString2 ds2 = new DecompressString2();
-		System.out.println(ds2.decompress("a1d14c5"));
-		System.out.println(ds2.decompress("a1d0c5"));
+////		DecompressString2
+//		DecompressString2 ds2 = new DecompressString2();
+//		System.out.println(ds2.decompress("a1d14c5"));
+//		System.out.println(ds2.decompress("a1d0c5"));
+		
+		LongestSubstringWithoutRepeating lswr = new LongestSubstringWithoutRepeating();
+		System.out.println(lswr.longest("abcdabcdeabc"));
 	}
 }
