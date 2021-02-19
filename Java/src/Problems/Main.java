@@ -33,7 +33,14 @@ public class Main {
 //		System.out.println(ds2.decompress("a1d14c5"));
 //		System.out.println(ds2.decompress("a1d0c5"));
 		
-		LongestSubstringWithoutRepeating lswr = new LongestSubstringWithoutRepeating();
-		System.out.println(lswr.longest("abcdabcdeabc"));
+////		LongestSubstringWithoutRepeating
+//		LongestSubstringWithoutRepeating lswr = new LongestSubstringWithoutRepeating();
+//		System.out.println(lswr.longest("abcdabcdeabc"));
+		
+		
+//		AllAnagrams
+		AllAnagrams aa = new AllAnagrams();
+		System.out.println(aa.allAnagrams("ab", "aabbabaccabcba"));
+		
 	}
 }
