@@ -38,9 +38,19 @@ public class Main {
 //		System.out.println(lswr.longest("abcdabcdeabc"));
 		
 		
-//		AllAnagrams
-		AllAnagrams aa = new AllAnagrams();
-		System.out.println(aa.allAnagrams("ab", "aabbabaccabcba"));
+////		AllAnagrams
+//		AllAnagrams aa = new AllAnagrams();
+//		System.out.println(aa.allAnagrams("ab", "aabbabaccabcba"));
 		
+////		LongestSubArrayOnly1s
+//		LongestSubArrayOnly1s lsao = new LongestSubArrayOnly1s();
+//		System.out.println(lsao.longestConsecutiveOnes(new int[] {1,1,0,0,1,1,1,0,0,0}, 2));
+		
+//		SpiralOrderTraversal
+		SpiralOrderTraversal sot = new SpiralOrderTraversal();
+		System.out.println(sot.spiral(new int[][] {{-85,56,37,48},
+													{-25,-78,-29,62},
+													{18,-60,-74,-84},
+													{90,44,5,1}}));
 	}
 }
