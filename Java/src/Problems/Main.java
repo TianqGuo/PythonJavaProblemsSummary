@@ -46,11 +46,19 @@ public class Main {
 //		LongestSubArrayOnly1s lsao = new LongestSubArrayOnly1s();
 //		System.out.println(lsao.longestConsecutiveOnes(new int[] {1,1,0,0,1,1,1,0,0,0}, 2));
 		
-//		SpiralOrderTraversal
-		SpiralOrderTraversal sot = new SpiralOrderTraversal();
-		System.out.println(sot.spiral(new int[][] {{-85,56,37,48},
-													{-25,-78,-29,62},
-													{18,-60,-74,-84},
-													{90,44,5,1}}));
+////		SpiralOrderTraversal
+//		SpiralOrderTraversal sot = new SpiralOrderTraversal();
+//		System.out.println(sot.spiral(new int[][] {{-85,56,37,48},
+//													{-25,-78,-29,62},
+//													{18,-60,-74,-84},
+//													{90,44,5,1}}));
+		
+//		NQueens
+		NQueens nqs = new NQueens();
+		System.out.println(nqs.nQueens(5));	
+		
+		
+		
+		
 	}
 }
