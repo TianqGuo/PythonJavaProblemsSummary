@@ -53,10 +53,17 @@ public class Main {
 //													{18,-60,-74,-84},
 //													{90,44,5,1}}));
 		
-//		NQueens
-		NQueens nqs = new NQueens();
-		System.out.println(nqs.nQueens(5));	
+////		NQueens
+//		NQueens nqs = new NQueens();
+//		System.out.println(nqs.nQueens(5));	
 		
+//		ReverseInPairs
+		ReverseInPairs rp = new ReverseInPairs();
+		ListNode root = new ListNode(1);
+		root.next = new ListNode(2);
+		root.next.next = new ListNode(3);
+		
+		rp.printNodes(rp.reverseInPairs(root));
 		
 		
 		
