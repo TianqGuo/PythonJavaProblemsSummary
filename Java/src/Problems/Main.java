@@ -57,13 +57,18 @@ public class Main {
 //		NQueens nqs = new NQueens();
 //		System.out.println(nqs.nQueens(5));	
 		
-//		ReverseInPairs
-		ReverseInPairs rp = new ReverseInPairs();
-		ListNode root = new ListNode(1);
-		root.next = new ListNode(2);
-		root.next.next = new ListNode(3);
+////		ReverseInPairs
+//		ReverseInPairs rp = new ReverseInPairs();
+//		ListNode root = new ListNode(1);
+//		root.next = new ListNode(2);
+//		root.next.next = new ListNode(3);
+//		
+//		rp.printNodes(rp.reverseInPairs(root));
 		
-		rp.printNodes(rp.reverseInPairs(root));
+//		StringAbbrMatch
+		StringAbbrMatch sam = new StringAbbrMatch();
+		System.out.println(sam.match("laioffercom", "6fer3"));
+		System.out.println(sam.match("laioffercom", "6er3"));
 		
 		
 		
