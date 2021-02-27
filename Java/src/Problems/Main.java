@@ -65,10 +65,20 @@ public class Main {
 //		
 //		rp.printNodes(rp.reverseInPairs(root));
 		
-//		StringAbbrMatch
-		StringAbbrMatch sam = new StringAbbrMatch();
-		System.out.println(sam.match("laioffercom", "6fer3"));
-		System.out.println(sam.match("laioffercom", "6er3"));
+////		StringAbbrMatch
+//		StringAbbrMatch sam = new StringAbbrMatch();
+//		System.out.println(sam.match("laioffercom", "6fer3"));
+//		System.out.println(sam.match("laioffercom", "6er3"));
+		
+//		LowestCommonAncestor1
+		LowestCommonAncestor1 lca1 = new LowestCommonAncestor1();
+		TreeNode root = new TreeNode(0);
+		root.left = new TreeNode(1);
+		root.right = new TreeNode(2);
+		TreeNode two = root.right;
+		root.left.left = new TreeNode(3);
+		TreeNode one = root.left.left;\
+		System.out.println(lca1.lca1(root, one, two).key);
 		
 		
 		
