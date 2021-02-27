@@ -70,15 +70,26 @@ public class Main {
 //		System.out.println(sam.match("laioffercom", "6fer3"));
 //		System.out.println(sam.match("laioffercom", "6er3"));
 		
-//		LowestCommonAncestor1
-		LowestCommonAncestor1 lca1 = new LowestCommonAncestor1();
+////		LowestCommonAncestor1
+//		LowestCommonAncestor1 lca1 = new LowestCommonAncestor1();
+//		TreeNode root = new TreeNode(0);
+//		root.left = new TreeNode(1);
+//		root.right = new TreeNode(2);
+//		TreeNode two = root.right;
+//		root.left.left = new TreeNode(3);
+//		TreeNode one = root.left.left;
+//		System.out.println(lca1.lca1(root, one, two).key);
+		
+//		ReverseBT
+		ReverseBT rbt = new ReverseBT();
 		TreeNode root = new TreeNode(0);
 		root.left = new TreeNode(1);
 		root.right = new TreeNode(2);
-		TreeNode two = root.right;
 		root.left.left = new TreeNode(3);
-		TreeNode one = root.left.left;\
-		System.out.println(lca1.lca1(root, one, two).key);
+		root.left.right = new TreeNode(4);
+		root.printTreeNode(root);
+		System.out.print("\n");
+		root.printTreeNode(rbt.reverse(root));
 		
 		
 		
