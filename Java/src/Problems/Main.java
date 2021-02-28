@@ -80,17 +80,21 @@ public class Main {
 //		TreeNode one = root.left.left;
 //		System.out.println(lca1.lca1(root, one, two).key);
 		
-//		ReverseBT
-		ReverseBT rbt = new ReverseBT();
-		TreeNode root = new TreeNode(0);
-		root.left = new TreeNode(1);
-		root.right = new TreeNode(2);
-		root.left.left = new TreeNode(3);
-		root.left.right = new TreeNode(4);
-		root.printTreeNode(root);
-		System.out.print("\n");
-		root.printTreeNode(rbt.reverse(root));
+////		ReverseBT
+//		ReverseBT rbt = new ReverseBT();
+//		TreeNode root = new TreeNode(0);
+//		root.left = new TreeNode(1);
+//		root.right = new TreeNode(2);
+//		root.left.left = new TreeNode(3);
+//		root.left.right = new TreeNode(4);
+//		root.printTreeNode(root);
+//		System.out.print("\n");
+//		root.printTreeNode(rbt.reverse(root));
 		
+		
+//		ArrayHopper2
+		ArrayHopper2 ah2 = new ArrayHopper2();
+		System.out.println(ah2.minJump(new int[] {2,3,4,0}));
 		
 		
 	}
