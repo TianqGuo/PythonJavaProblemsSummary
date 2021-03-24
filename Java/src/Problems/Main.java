@@ -96,9 +96,13 @@ public class Main {
 //		ArrayHopper2 ah2 = new ArrayHopper2();
 //		System.out.println(ah2.minJump(new int[] {2,3,4,0}));
 		
-//		LargestSubarraySum
-		LargestSubarraySum lss = new LargestSubarraySum();
-		System.out.println(lss.largestSum(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
+////		LargestSubarraySum
+//		LargestSubarraySum lss = new LargestSubarraySum();
+//		System.out.println(lss.largestSum(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
+		
+//		Dictionary word1
+		DictionaryWord1 dw1 = new DictionaryWord1();
+		System.out.println(dw1.DictionaryWord("robcatd", new String[] {"rob","cat","d"}));
 		
 		
 	}
