@@ -14,6 +14,9 @@ Dictionary: {¡°bob¡±, ¡°cat¡±, ¡°rob¡±}
 Word: ¡°robob¡± return false
 
 Word: ¡°robcatbob¡± return true since it can be composed by "rob", "cat", "bob"
+
+Answer Author: Tianquan Guo
+Date: 3/27/2021
  */
 
 package Problems;
