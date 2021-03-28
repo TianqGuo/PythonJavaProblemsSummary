@@ -100,10 +100,13 @@ public class Main {
 //		LargestSubarraySum lss = new LargestSubarraySum();
 //		System.out.println(lss.largestSum(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
 		
-//		Dictionary word1
-		DictionaryWord1 dw1 = new DictionaryWord1();
-		System.out.println(dw1.DictionaryWord("robcatd", new String[] {"rob","cat","d"}));
+////		Dictionary word1
+//		DictionaryWord1 dw1 = new DictionaryWord1();
+//		System.out.println(dw1.DictionaryWord("robcatd", new String[] {"rob","cat","d"}));
 		
+//		EditDistance
+		EditDistance ed = new EditDistance();
+		System.out.println(ed.editDistance("ab", "dbbabc"));
 		
 	}
 }
