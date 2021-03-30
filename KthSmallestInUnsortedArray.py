@@ -25,19 +25,35 @@ class Solution(object):
         input: int[] array, int k
         return: int[]
         """
-        # write your solution here
-        if not array or k > len(array):
+        if not array or k >= len(array):
             return array
 
         pq = []
         ans = []
-        for index, cur in enumerate(array):
-            heapq.heappush(pq, cur)
+        for i in range (len(array)):
+            heapq.heappush(pq, array[i])
 
         for i in range (k):
             ans.append(heapq.heappop(pq))
 
         return ans
+
+
+
+
+        # # write your solution here
+        # if not array or k > len(array):
+        #     return array
+        #
+        # pq = []
+        # ans = []
+        # for index, cur in enumerate(array):
+        #     heapq.heappush(pq, cur)
+        #
+        # for i in range (k):
+        #     ans.append(heapq.heappop(pq))
+        #
+        # return ans
 
 
 # Test cases
