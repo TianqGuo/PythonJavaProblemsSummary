@@ -25,23 +25,51 @@ Date: 1/2/2021
 #           "a"          ""
 #        "ab"    "a"     "b" ""
 #   "abc"  "ab" ...
+
+############## Note this is a way to do it in more costy way ###############
+
+# class Solution(object):
+#     def subSets(self, set):
+#         ans = []
+#         if not set:
+#             return [[]]
+#         self.helper(set, ans, 0, "")
+#         return ans
+#
+#     def helper(self, string, ans, index, subset):
+#         # base case, exit condition
+#         if index >= len(string):
+#             ans.append(subset)
+#             return
+#
+#         # call next recursion for two cases: when current letter exist and current letter doesn't exist
+#         self.helper(string, ans, index + 1, subset)
+#         self.helper(string, ans, index + 1, subset + string[index])
+
+############## Better way to do this is the following method ###############
+
 class Solution(object):
     def subSets(self, set):
-        ans = []
         if not set:
             return [[]]
-        self.helper(set, ans, 0, "")
+
+        set_array = list(set)
+        cur = []
+        ans = []
+
+        self.helper(set_array, 0, cur, ans)
+
         return ans
 
-    def helper(self, string, ans, index, subset):
-        # base case, exit condition
-        if index >= len(string):
-            ans.append(subset)
+    def helper(self, set_array, index, cur, ans):
+        if index >= len(set_array):
+            ans.append("".join(cur))
             return
 
-        # call next recursion for two cases: when current letter exist and current letter doesn't exist
-        self.helper(string, ans, index + 1, subset)
-        self.helper(string, ans, index + 1, subset + string[index])
+        self.helper(set_array, index + 1, cur, ans)
+        cur.append(set_array[index])
+        self.helper(set_array, index + 1, cur, ans)
+        cur.pop()
 
 # Test cases
 print("Start Testing...")
