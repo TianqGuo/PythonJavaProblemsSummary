@@ -104,9 +104,13 @@ public class Main {
 //		DictionaryWord1 dw1 = new DictionaryWord1();
 //		System.out.println(dw1.DictionaryWord("robcatd", new String[] {"rob","cat","d"}));
 		
-//		EditDistance
-		EditDistance ed = new EditDistance();
-		System.out.println(ed.editDistance("ab", "dbbabc"));
+////		EditDistance
+//		EditDistance ed = new EditDistance();
+//		System.out.println(ed.editDistance("ab", "dbbabc"));
+		
+//		LargestSquareOf1s
+		LargestSquareOf1s lso1 = new LargestSquareOf1s();
+		System.out.println(lso1.largest(new int[][] {{1,1,1,1}, {1,1,1,1}, {0,1,1,1}, {1,1,1,1}}));
 		
 	}
 }

@@ -188,7 +188,7 @@ for face in Face:
         # print(face.value, " of ", suit.value)
         cur_hand.add_cards(Card(suit.value, face.value))
 
-# print(cur_hand.size())
+print(cur_hand.size())
 
 # MergeSort Better space complexity method
 class Solution(object):
