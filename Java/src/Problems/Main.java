@@ -108,9 +108,13 @@ public class Main {
 //		EditDistance ed = new EditDistance();
 //		System.out.println(ed.editDistance("ab", "dbbabc"));
 		
-//		LargestSquareOf1s
-		LargestSquareOf1s lso1 = new LargestSquareOf1s();
-		System.out.println(lso1.largest(new int[][] {{1,1,1,1}, {1,1,1,1}, {0,1,1,1}, {1,1,1,1}}));
+////		LargestSquareOf1s
+//		LargestSquareOf1s lso1 = new LargestSquareOf1s();
+//		System.out.println(lso1.largest(new int[][] {{1,1,1,1}, {1,1,1,1}, {0,1,1,1}, {1,1,1,1}}));
+		
+//		Longest Consecutive 1s
+		LongestConsecutive1 lc1 = new LongestConsecutive1();
+		System.out.println(lc1.longest(new int[] {1,0,1,0,0,1,1,1,1,0}));
 		
 	}
 }
