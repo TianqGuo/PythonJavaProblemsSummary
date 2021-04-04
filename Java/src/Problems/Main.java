@@ -112,9 +112,20 @@ public class Main {
 //		LargestSquareOf1s lso1 = new LargestSquareOf1s();
 //		System.out.println(lso1.largest(new int[][] {{1,1,1,1}, {1,1,1,1}, {0,1,1,1}, {1,1,1,1}}));
 		
-//		Longest Consecutive 1s
-		LongestConsecutive1 lc1 = new LongestConsecutive1();
-		System.out.println(lc1.longest(new int[] {1,0,1,0,0,1,1,1,1,0}));
+////		Longest Consecutive 1s
+//		LongestConsecutive1 lc1 = new LongestConsecutive1();
+//		System.out.println(lc1.longest(new int[] {1,0,1,0,0,1,1,1,1,0}));
+		
+//		KClosestInUnsortedArray
+		KClosestInUnsortedArray kciua = new KClosestInUnsortedArray();
+		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 6, 3)));
+		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 6, 10)));
+		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 10, 3)));
+		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 0, 3)));
+		
+		
+		
+		
 		
 	}
 }
