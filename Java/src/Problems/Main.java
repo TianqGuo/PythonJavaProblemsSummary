@@ -116,12 +116,16 @@ public class Main {
 //		LongestConsecutive1 lc1 = new LongestConsecutive1();
 //		System.out.println(lc1.longest(new int[] {1,0,1,0,0,1,1,1,1,0}));
 		
-//		KClosestInUnsortedArray
-		KClosestInUnsortedArray kciua = new KClosestInUnsortedArray();
-		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 6, 3)));
-		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 6, 10)));
-		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 10, 3)));
-		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 0, 3)));
+////		KClosestInUnsortedArray
+//		KClosestInUnsortedArray kciua = new KClosestInUnsortedArray();
+//		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 6, 3)));
+//		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 6, 10)));
+//		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 10, 3)));
+//		System.out.println(Arrays.toString(kciua.closest(new int[] {1, 2, 4, 9, 8, 7}, 0, 3)));
+		
+//		largestSubArraySum2
+		largestSubArraySum2 lsas2 = new largestSubArraySum2();
+		System.out.println(Arrays.toString(lsas2.largestSum(new int[] {4,2,-3,-2,3,-1,-2,6})));
 		
 		
 		
