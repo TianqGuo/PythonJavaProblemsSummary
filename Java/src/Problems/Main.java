@@ -136,12 +136,14 @@ public class Main {
 //		System.out.println(so.spiralOrder(new int[][] {{1,2,3},{4,5,6},{7,8,9}}));
 //		System.out.println(so.spiralOrder(new int[][] {{3},{2}}));
 		
-//		IsMinHeap
-		IsMinHeap imh = new IsMinHeap();
-		System.out.println(imh.isMinHeap(new int[] {2,2,3,1}));
-		System.out.println(imh.isMinHeap(new int[] {1,2,3,4}));		
+////		IsMinHeap
+//		IsMinHeap imh = new IsMinHeap();
+//		System.out.println(imh.isMinHeap(new int[] {2,2,3,1}));
+//		System.out.println(imh.isMinHeap(new int[] {1,2,3,4}));		
 		
-		
+//		CalculateSumSpecial
+		CalculateSumSpecial css = new CalculateSumSpecial();
+		System.out.println(css.calculteSumSpecial(12345));
 		
 		
 	}
