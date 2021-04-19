@@ -1,3 +1,12 @@
+/**
+The purpose of this class is to test concurrency and shows inaccuracy due to not threadSafe.
+
+Answer Author: Tianquan Guo
+Date: 4/18/2021
+ */
+
+
+
 package Problems;
 
 import java.io.IOException;
