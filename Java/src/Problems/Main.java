@@ -131,11 +131,15 @@ public class Main {
 		
 //		MultiThread tests in MultiThreads class
 		
-//		SpiralOrder
-		SpiralOrder so = new SpiralOrder();
-		System.out.println(so.spiralOrder(new int[][] {{1,2,3},{4,5,6},{7,8,9}}));
-		System.out.println(so.spiralOrder(new int[][] {{3},{2}}));
+////		SpiralOrder
+//		SpiralOrder so = new SpiralOrder();
+//		System.out.println(so.spiralOrder(new int[][] {{1,2,3},{4,5,6},{7,8,9}}));
+//		System.out.println(so.spiralOrder(new int[][] {{3},{2}}));
 		
+//		IsMinHeap
+		IsMinHeap imh = new IsMinHeap();
+		System.out.println(imh.isMinHeap(new int[] {2,2,3,1}));
+		System.out.println(imh.isMinHeap(new int[] {1,2,3,4}));		
 		
 		
 		
