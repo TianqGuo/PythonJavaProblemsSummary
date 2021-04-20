@@ -145,11 +145,27 @@ public class Main {
 //		CalculateSumSpecial css = new CalculateSumSpecial();
 //		System.out.println(css.calculteSumSpecial(12345));
 		
-//		ShiftedSortedArray1
-		ShiftedSortedArray1 ssa1 = new ShiftedSortedArray1();
-		System.out.println(ssa1.search(new int[] {20,30,2,12,13,14,15}, 30));
-		System.out.println(ssa1.search(new int[] {1,2}, 0));
-		System.out.println(ssa1.search(new int[] {1}, 0));
-		System.out.println(ssa1.search(new int[] {15,19,22,1,3,6,10,11,14}, 1));
+////		ShiftedSortedArray1
+//		ShiftedSortedArray1 ssa1 = new ShiftedSortedArray1();
+//		System.out.println(ssa1.search(new int[] {20,30,2,12,13,14,15}, 30));
+//		System.out.println(ssa1.search(new int[] {1,2}, 0));
+//		System.out.println(ssa1.search(new int[] {1}, 0));
+//		System.out.println(ssa1.search(new int[] {15,19,22,1,3,6,10,11,14}, 1));
+		
+//		ShiftedSortedArray2
+		ShiftedSortedArray2 ssa2 = new ShiftedSortedArray2();
+		System.out.println(ssa2.search(new int[] {20,30,2,12,13,14,15}, 30));
+		System.out.println(ssa2.search(new int[] {1,2}, 0));
+		System.out.println(ssa2.search(new int[] {1}, 0));
+		System.out.println(ssa2.search(new int[] {15,19,22,1,3,6,10,11,14}, 1));
+		System.out.println(ssa2.search(new int[] {15,19,22,1,3,6,10,11,14}, 1));
+		System.out.println(ssa2.search(new int[] {1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1}, 2));
+		System.out.println(ssa2.search(new int[] {2,1,1,1,1,1,1,2}, 2));
+		System.out.println(ssa2.search(new int[] {2,1,1,1,1,1,1,2}, 2));
+		
+		
+		
+		
+		
 	}
 }
