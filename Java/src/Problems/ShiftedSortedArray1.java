@@ -32,25 +32,33 @@ public class ShiftedSortedArray1 {
 	      return -1;
 	    }
 
+	    // step1: identify the index of the MAX value
 	    int shiftIndex = findIndex(array);
 
 	    
+	    
 	    // int left = array[0] <= target ? 0 : shiftIndex + 1;
-		// int right = array[0] <= target ? shiftIndex : array.length - 1;
+		  // int right = array[0] <= target ? shiftIndex : array.length - 1;
 
+	    // define left, right, note there are three ways to define, 
+	    // 1) when there is not shift
+	    // 2) when the target number is in [0, shiftIndex]
+	    // 3) when the target number is in [shiftIndex + 1, array.length - 1]
 	    int left;
 	    int right;
+
 	    if (array[0] <= array[array.length - 1]) {
-	    	left = 0; 
-	        right = array.length - 1;
-	      } else if (array[0] <= target) {
-	        left = 0;
-	        right = shiftIndex;
-	      } else {
-	        left = shiftIndex + 1;
-	        right = array.length - 1;
-	      }
+	      left = 0; 
+	      right = array.length - 1;
+	    } else if (array[0] <= target) {
+	      left = 0;
+	      right = shiftIndex;
+	    } else {
+	      left = shiftIndex + 1;
+	      right = array.length - 1;
+	    }
 	    
+	    // use binary search to find the target value
 	    while (left + 1 < right) {
 	      int mid = left + (right - left) / 2;
 	      if (array[mid] > target) {
@@ -71,14 +79,19 @@ public class ShiftedSortedArray1 {
 	    return -1;
 	  }
 
+	// identify the index of the MAX value
 	  private int findIndex (int[] array) {
+	    // need to add this corner case to identify no shift situation
 	    if (array[0] < array[array.length - 1]) {
 	      return array.length - 1;
 	    }
 
+	    
 	    int left = 0;
 	    int right = array.length - 1;
 
+	    // note here need to notice the condition, since we are finding largest value,
+	    // there are 3 situations in this case
 	    while (left + 1 < right) {
 	      int mid = left + (right - left) / 2;
 	      if (array[mid] > array[mid + 1]) {
@@ -89,13 +102,11 @@ public class ShiftedSortedArray1 {
 	        left = mid;
 	      }
 	    }
-	    
-//	    System.out.println(left);
-//	    System.out.println(right);
+
 	    if (array[left] > array[right]) {
 	      return left;
 	    } 
-	    
+
 	    return right;
 	  }
 }
