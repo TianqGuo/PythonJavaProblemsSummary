@@ -141,10 +141,15 @@ public class Main {
 //		System.out.println(imh.isMinHeap(new int[] {2,2,3,1}));
 //		System.out.println(imh.isMinHeap(new int[] {1,2,3,4}));		
 		
-//		CalculateSumSpecial
-		CalculateSumSpecial css = new CalculateSumSpecial();
-		System.out.println(css.calculteSumSpecial(12345));
+////		CalculateSumSpecial
+//		CalculateSumSpecial css = new CalculateSumSpecial();
+//		System.out.println(css.calculteSumSpecial(12345));
 		
-		
+//		ShiftedSortedArray1
+		ShiftedSortedArray1 ssa1 = new ShiftedSortedArray1();
+		System.out.println(ssa1.search(new int[] {20,30,2,12,13,14,15}, 30));
+		System.out.println(ssa1.search(new int[] {1,2}, 0));
+		System.out.println(ssa1.search(new int[] {1}, 0));
+		System.out.println(ssa1.search(new int[] {15,19,22,1,3,6,10,11,14}, 1));
 	}
 }
