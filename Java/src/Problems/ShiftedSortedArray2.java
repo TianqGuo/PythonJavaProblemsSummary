@@ -34,10 +34,12 @@ public class ShiftedSortedArray2 {
 	    // step1: identify the index of the MAX value
 	    int shiftIndex = findIndex(array, target);
 	    
+//	    this condition is used to identify [0,0,0] 1 situation
 	    if (shiftIndex == -1) {
             return -1;
         }
-	    
+
+//	    this condition is used to identify [0,1,0,0,0] 1 situation
 	    if (array[shiftIndex] == target) {
 	    	return shiftIndex;
 	    }
@@ -103,8 +105,10 @@ public class ShiftedSortedArray2 {
 //	      note here in order to deal with [1,1,1,1,1,1,2,1,1,1,1,1] situation, we need to add isBinarySearchHelpful function
 	      while(!isBinarySearchHelpful(array, left, array[mid])) {
 		      left++;
+//			    this condition is used to identify [0,1,0,0,0] 1 situation
 		      if (left < array.length && array[left] == target) {
 		    	  return left;
+//		  	    this condition is used to identify [0,0,0] 1 situation
 		      } else if (left >= array.length) {
 	                return -1;
 	          }
