@@ -32,8 +32,15 @@ public class ShiftedSortedArray2 {
 	    }
 
 	    // step1: identify the index of the MAX value
-	    int shiftIndex = findIndex(array);
-
+	    int shiftIndex = findIndex(array, target);
+	    
+	    if (shiftIndex == -1) {
+            return -1;
+        }
+	    
+	    if (array[shiftIndex] == target) {
+	    	return shiftIndex;
+	    }
 	    
 	    
 	    // int left = array[0] <= target ? 0 : shiftIndex + 1;
@@ -79,7 +86,7 @@ public class ShiftedSortedArray2 {
 	  }
 
 	// identify the index of the MAX value
-	  private int findIndex (int[] array) {
+	  private int findIndex (int[] array, int target) {
 	    int left = 0;
 	    int right = array.length - 1;
 	    int mid = left + (right - left) / 2;
@@ -96,6 +103,11 @@ public class ShiftedSortedArray2 {
 //	      note here in order to deal with [1,1,1,1,1,1,2,1,1,1,1,1] situation, we need to add isBinarySearchHelpful function
 	      while(!isBinarySearchHelpful(array, left, array[mid])) {
 		      left++;
+		      if (left < array.length && array[left] == target) {
+		    	  return left;
+		      } else if (left >= array.length) {
+	                return -1;
+	          }
 		  }
 	      
 	      if (array[mid] > array[mid + 1]) {

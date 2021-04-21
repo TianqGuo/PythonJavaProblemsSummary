@@ -162,8 +162,8 @@ public class Main {
 		System.out.println(ssa2.search(new int[] {1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1}, 2));
 		System.out.println(ssa2.search(new int[] {2,1,1,1,1,1,1,2}, 2));
 		System.out.println(ssa2.search(new int[] {2,1,1,1,1,1,1,2}, 2));
-		
-		
+		System.out.println(ssa2.search(new int[] {1,0,1,1,1}, 0));
+		System.out.println(ssa2.search(new int[] {0,0,0}, 1));
 		
 		
 		
