@@ -39,7 +39,7 @@ package Problems;
 
 public class FindPeakElement {
 	public int findPeakElement(int[] nums) {
-//		note it is not required to have the 
+//		note for this problem it doesn't require to get every peak number
         int l = 0, r = nums.length - 1;
         while (l < r) {
             int mid = (l + r) / 2;
