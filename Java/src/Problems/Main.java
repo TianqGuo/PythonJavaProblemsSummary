@@ -165,10 +165,15 @@ public class Main {
 //		System.out.println(ssa2.search(new int[] {1,0,1,1,1}, 0));
 //		System.out.println(ssa2.search(new int[] {0,0,0}, 1));
 		
-//		FindPeakElement
-//		note for this problem it doesn't require to get every peak number
-		FindPeakElement fpe = new FindPeakElement();
-		System.out.println(fpe.findPeakElement(new int[] {1,2,3,2,3,4}));
+////		FindPeakElement
+////		note for this problem it doesn't require to get every peak number
+//		FindPeakElement fpe = new FindPeakElement();
+//		System.out.println(fpe.findPeakElement(new int[] {1,2,3,2,3,4}));
+		
+//		KokoEatingBananas
+		KokoEatingBananas keb = new KokoEatingBananas();
+		System.out.println(keb.minEatingSpeed(new int[] {3,6,7,11}, 8));
+		System.out.println(keb.minEatingSpeed(new int[] {30,11,23,4,20}, 5));
 		
 	}
 }
