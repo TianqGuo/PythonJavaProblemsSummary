@@ -184,12 +184,16 @@ public class Main {
 //		System.out.println(Arrays.toString(test1));
 //		System.out.println(Arrays.toString(test2));
 		
-//		MergeSortedArray
-		MergeSortedArray msa = new MergeSortedArray();
-		int[] test1 = new int[] {1, 4, 5, 6, 0, 0, 0};
-		int[] test2 = new int[] {2, 3, 4};
-		msa.merge(test1, 4, test2, 3);
-		System.out.println(Arrays.toString(test1));
+////		MergeSortedArray
+//		MergeSortedArray msa = new MergeSortedArray();
+//		int[] test1 = new int[] {1, 4, 5, 6, 0, 0, 0};
+//		int[] test2 = new int[] {2, 3, 4};
+//		msa.merge(test1, 4, test2, 3);
+//		System.out.println(Arrays.toString(test1));
+		
+//		KthLargestInArray
+		KthLargestInArray klia = new KthLargestInArray();
+		System.out.println(klia.findKthLargest(new int[] {1,5,3,4,9,6,7}, 3));
 		
 		
 	}
