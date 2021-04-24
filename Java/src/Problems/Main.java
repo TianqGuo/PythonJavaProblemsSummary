@@ -175,15 +175,21 @@ public class Main {
 //		System.out.println(keb.minEatingSpeed(new int[] {3,6,7,11}, 8));
 //		System.out.println(keb.minEatingSpeed(new int[] {30,11,23,4,20}, 5));
 		
-//		SortColors
-		SortColors scs = new SortColors();
-		int[] test1 = new int[] {2,0,2,1,1,0};
-		int[] test2 = new int[] {2, 0, 1};
-		scs.sortColors(test1);
-		scs.sortColors(test2);
-		System.out.println(Arrays.toString(test1));
-		System.out.println(Arrays.toString(test2));
+////		SortColors
+//		SortColors scs = new SortColors();
+//		int[] test1 = new int[] {2,0,2,1,1,0};
+//		int[] test2 = new int[] {2, 0, 1};
+//		scs.sortColors(test1);
+//		scs.sortColors(test2);
+//		System.out.println(Arrays.toString(test1));
+//		System.out.println(Arrays.toString(test2));
 		
+//		MergeSortedArray
+		MergeSortedArray msa = new MergeSortedArray();
+		int[] test1 = new int[] {1, 4, 5, 6, 0, 0, 0};
+		int[] test2 = new int[] {2, 3, 4};
+		msa.merge(test1, 4, test2, 3);
+		System.out.println(Arrays.toString(test1));
 		
 		
 	}
