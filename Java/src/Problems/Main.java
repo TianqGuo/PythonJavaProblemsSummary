@@ -191,10 +191,13 @@ public class Main {
 //		msa.merge(test1, 4, test2, 3);
 //		System.out.println(Arrays.toString(test1));
 		
-//		KthLargestInArray
-		KthLargestInArray klia = new KthLargestInArray();
-		System.out.println(klia.findKthLargest(new int[] {1,5,3,4,9,6,7}, 3));
+////		KthLargestInArray
+//		KthLargestInArray klia = new KthLargestInArray();
+//		System.out.println(klia.findKthLargest(new int[] {1,5,3,4,9,6,7}, 3));
 		
+//		MeetingRooms2
+		MeetingRooms2 mr2 = new MeetingRooms2();
+		System.out.println(mr2.minMeetingRooms(new int[][] {{1,5}, {3,8}, {4,6}}));
 		
 	}
 }
