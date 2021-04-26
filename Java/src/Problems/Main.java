@@ -195,9 +195,17 @@ public class Main {
 //		KthLargestInArray klia = new KthLargestInArray();
 //		System.out.println(klia.findKthLargest(new int[] {1,5,3,4,9,6,7}, 3));
 		
-//		MeetingRooms2
-		MeetingRooms2 mr2 = new MeetingRooms2();
-		System.out.println(mr2.minMeetingRooms(new int[][] {{1,5}, {3,8}, {4,6}}));
+////		MeetingRooms2
+//		MeetingRooms2 mr2 = new MeetingRooms2();
+//		System.out.println(mr2.minMeetingRooms(new int[][] {{1,5}, {3,8}, {4,6}}));
 		
+//		FindMedianFromStream
+		FindMedianFromStream fmfs = new FindMedianFromStream();
+		fmfs.addNum(1);
+		System.out.println(fmfs.findMedian());
+		fmfs.addNum(2);
+		System.out.println(fmfs.findMedian());
+		fmfs.addNum(3);
+		System.out.println(fmfs.findMedian());
 	}
 }
