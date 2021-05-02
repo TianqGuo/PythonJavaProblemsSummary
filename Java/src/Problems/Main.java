@@ -208,12 +208,14 @@ public class Main {
 //		fmfs.addNum(3);
 //		System.out.println(fmfs.findMedian());
 		
-//		Serialize and Deerialize binary tree
-		SerializeDeserializeBT sdbt = new SerializeDeserializeBT();
-		TreeNode root = sdbt.deserialize("1 2 3 n n 4 5");
-		System.out.print(sdbt.serialize(root));
+////		Serialize and Deerialize binary tree
+//		SerializeDeserializeBT sdbt = new SerializeDeserializeBT();
+//		TreeNode root = sdbt.deserialize("1 2 3 n n 4 5");
+//		System.out.print(sdbt.serialize(root));
 		
-		
+//		WordBreak2
+		WordBreak2 wb2 = new WordBreak2();
+		System.out.println(wb2.wordBreak("catsanddog", Arrays.asList("cat","cats","and","sand","dog")));
 		
 	}
 }
