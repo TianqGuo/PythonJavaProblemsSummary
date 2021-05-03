@@ -213,9 +213,23 @@ public class Main {
 //		TreeNode root = sdbt.deserialize("1 2 3 n n 4 5");
 //		System.out.print(sdbt.serialize(root));
 		
-//		WordBreak2
-		WordBreak2 wb2 = new WordBreak2();
-		System.out.println(wb2.wordBreak("catsanddog", Arrays.asList("cat","cats","and","sand","dog")));
+////		WordBreak2
+//		WordBreak2 wb2 = new WordBreak2();
+//		System.out.println(wb2.wordBreak("catsanddog", Arrays.asList("cat","cats","and","sand","dog")));
+		
+//		GroupAnagrams
+		GroupAnagrams ga = new GroupAnagrams();
+		System.out.println(ga.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }
