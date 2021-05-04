@@ -217,10 +217,13 @@ public class Main {
 //		WordBreak2 wb2 = new WordBreak2();
 //		System.out.println(wb2.wordBreak("catsanddog", Arrays.asList("cat","cats","and","sand","dog")));
 		
-//		GroupAnagrams
-		GroupAnagrams ga = new GroupAnagrams();
-		System.out.println(ga.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
+////		GroupAnagrams
+//		GroupAnagrams ga = new GroupAnagrams();
+//		System.out.println(ga.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
 		
+//		TopKFrequent
+		TopKFrequent tkf = new TopKFrequent();
+		System.out.println(Arrays.toString(tkf.topKFrequent(new int[] {1,1,1,1,1,2,2,2,2,3,3,3,5,7}, 3)));
 		
 		
 		
