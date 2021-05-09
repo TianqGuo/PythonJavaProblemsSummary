@@ -221,10 +221,16 @@ public class Main {
 //		GroupAnagrams ga = new GroupAnagrams();
 //		System.out.println(ga.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
 		
-//		TopKFrequent
-		TopKFrequent tkf = new TopKFrequent();
-		System.out.println(Arrays.toString(tkf.topKFrequent(new int[] {1,1,1,1,1,2,2,2,2,3,3,3,5,7}, 3)));
-		
+////		TopKFrequent
+//		TopKFrequent tkf = new TopKFrequent();
+//		System.out.println(Arrays.toString(tkf.topKFrequent(new int[] {1,1,1,1,1,2,2,2,2,3,3,3,5,7}, 3)));
+
+		//		NumbersOfIslands_UnionFind
+		NumbersOfIslands_UnionFind noiu = new NumbersOfIslands_UnionFind();
+		System.out.println(noiu.numIslands(new char[][] {{'1','1','0','0','0'},
+													  {'1','1','0','0','0'},
+													  {'0','0','1','0','0'},
+													  {'0','0','0','1','1'}}));
 		
 		
 		
