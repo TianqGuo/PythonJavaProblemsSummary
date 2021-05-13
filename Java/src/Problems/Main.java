@@ -225,12 +225,22 @@ public class Main {
 //		TopKFrequent tkf = new TopKFrequent();
 //		System.out.println(Arrays.toString(tkf.topKFrequent(new int[] {1,1,1,1,1,2,2,2,2,3,3,3,5,7}, 3)));
 
-		//		NumbersOfIslands_UnionFind
-		NumbersOfIslands_UnionFind noiu = new NumbersOfIslands_UnionFind();
-		System.out.println(noiu.numIslands(new char[][] {{'1','1','0','0','0'},
-													  {'1','1','0','0','0'},
-													  {'0','0','1','0','0'},
-													  {'0','0','0','1','1'}}));
+//		//		NumbersOfIslands_UnionFind
+//		NumbersOfIslands_UnionFind noiu = new NumbersOfIslands_UnionFind();
+//		System.out.println(noiu.numIslands(new char[][] {{'1','1','0','0','0'},
+//													  {'1','1','0','0','0'},
+//													  {'0','0','1','0','0'},
+//													  {'0','0','0','1','1'}}));
+		
+//		LRU
+		LRU<Integer, Integer> lru = new LRU<>(2);
+		lru.set(1, 1);
+		lru.set(2, 2);
+		System.out.println(lru.get(1));
+		System.out.println(lru.get(2));
+		lru.set(3, 3);
+		System.out.println(lru.get(3));
+		System.out.println(lru.get(1));
 		
 		
 		

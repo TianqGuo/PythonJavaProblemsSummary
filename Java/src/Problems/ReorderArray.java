@@ -76,4 +76,8 @@ public class ReorderArray {
 			array[j] = temp;
 		}
 	}
+
+	public static void main(String[] args) {
+		
+	}
 }
