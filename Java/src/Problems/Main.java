@@ -232,15 +232,19 @@ public class Main {
 //													  {'0','0','1','0','0'},
 //													  {'0','0','0','1','1'}}));
 		
-//		LRU
-		LRU<Integer, Integer> lru = new LRU<>(2);
-		lru.set(1, 1);
-		lru.set(2, 2);
-		System.out.println(lru.get(1));
-		System.out.println(lru.get(2));
-		lru.set(3, 3);
-		System.out.println(lru.get(3));
-		System.out.println(lru.get(1));
+////		LRU
+//		LRU<Integer, Integer> lru = new LRU<>(2);
+//		lru.set(1, 1);
+//		lru.set(2, 2);
+//		System.out.println(lru.get(1));
+//		System.out.println(lru.get(2));
+//		lru.set(3, 3);
+//		System.out.println(lru.get(3));
+//		System.out.println(lru.get(1));
+		
+//		BackPack
+		BackPack bp = new BackPack();
+		System.out.println(bp.backPack(10, new int[] {3, 4, 8, 5}));
 		
 		
 		
