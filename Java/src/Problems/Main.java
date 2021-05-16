@@ -242,11 +242,15 @@ public class Main {
 //		System.out.println(lru.get(3));
 //		System.out.println(lru.get(1));
 		
-//		BackPack
-		BackPack bp = new BackPack();
-		System.out.println(bp.backPack(10, new int[] {3, 4, 8, 5}));
+////		BackPack
+//		BackPack bp = new BackPack();
+//		System.out.println(bp.backPack(10, new int[] {3, 4, 8, 5}));
 		
-		
+//		RegularExpressionMatching
+		RegularExpressionMatching rem = new RegularExpressionMatching();
+		System.out.println(rem.isMatch("ab", ".*"));
+		System.out.println(rem.isMatch("ab", "a*"));
+		System.out.println(rem.isMatch("mississippi", "mis*is*p*."));
 		
 		
 		
