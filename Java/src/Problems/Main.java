@@ -251,9 +251,17 @@ public class Main {
 		System.out.println(rem.isMatch("ab", ".*"));
 		System.out.println(rem.isMatch("ab", "a*"));
 		System.out.println(rem.isMatch("mississippi", "mis*is*p*."));
+//		assert rem.isMatch("mississippi", "mis*is*p*.") == true : "Test1 Failed";
 		
+//		int cur = (1<<5) - 1;
+//		int pre = 31;
+//		assert pre == cur;
 		
+//		ShortestPathVisitingNodes
+		ShortestPathVisitingNodes spvn = new ShortestPathVisitingNodes();
+		System.out.println(spvn.shortestPathLength(new int[][] {{1, 3, 4}, {2}, {1}, {0}, {0}}));
 		
+				
 		
 		
 		
