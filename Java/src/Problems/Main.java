@@ -246,23 +246,30 @@ public class Main {
 //		BackPack bp = new BackPack();
 //		System.out.println(bp.backPack(10, new int[] {3, 4, 8, 5}));
 		
-//		RegularExpressionMatching
-		RegularExpressionMatching rem = new RegularExpressionMatching();
-		System.out.println(rem.isMatch("ab", ".*"));
-		System.out.println(rem.isMatch("ab", "a*"));
-		System.out.println(rem.isMatch("mississippi", "mis*is*p*."));
-//		assert rem.isMatch("mississippi", "mis*is*p*.") == true : "Test1 Failed";
+////		RegularExpressionMatching
+//		RegularExpressionMatching rem = new RegularExpressionMatching();
+//		System.out.println(rem.isMatch("ab", ".*"));
+//		System.out.println(rem.isMatch("ab", "a*"));
+//		System.out.println(rem.isMatch("mississippi", "mis*is*p*."));
+////		assert rem.isMatch("mississippi", "mis*is*p*.") == true : "Test1 Failed";
 		
 //		int cur = (1<<5) - 1;
 //		int pre = 31;
 //		assert pre == cur;
 		
-//		ShortestPathVisitingNodes
-		ShortestPathVisitingNodes spvn = new ShortestPathVisitingNodes();
-		System.out.println(spvn.shortestPathLength(new int[][] {{1, 3, 4}, {2}, {1}, {0}, {0}}));
+////		ShortestPathVisitingNodes
+//		ShortestPathVisitingNodes spvn = new ShortestPathVisitingNodes();
+//		System.out.println(spvn.shortestPathLength(new int[][] {{1, 3, 4}, {2}, {1}, {0}, {0}}));
 		
+////		RemoveDuplicatesInSortedArray
+//		RemoveDuplicatesInSortedArray rdia = new RemoveDuplicatesInSortedArray();
+//		int[] test1new  = new int[] {0,0,1,1,1,2,2,3,3,4};
+//		int end = rdia.removeDuplicates(test1new);
+//		System.out.println(Arrays.toString(Arrays.copyOfRange(test1new, 0, end)));
 				
-		
+//		ArrayDeduplication4
+		ArrayDeduplication4 ad4 = new ArrayDeduplication4();
+		System.out.println(Arrays.toString(ad4.dedup(new int[] {1,1,2,3,3,3,2,1,6})));
 		
 		
 		
