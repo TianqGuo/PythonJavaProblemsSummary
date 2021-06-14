@@ -267,9 +267,11 @@ public class Main {
 //		int end = rdia.removeDuplicates(test1new);
 //		System.out.println(Arrays.toString(Arrays.copyOfRange(test1new, 0, end)));
 				
-//		ArrayDeduplication4
-		ArrayDeduplication4 ad4 = new ArrayDeduplication4();
-		System.out.println(Arrays.toString(ad4.dedup(new int[] {1,1,2,3,3,3,2,1,6})));
+////		ArrayDeduplication4
+//		ArrayDeduplication4 ad4 = new ArrayDeduplication4();
+//		System.out.println(Arrays.toString(ad4.dedup(new int[] {1,1,2,3,3,3,2,1,6})));
+		
+		
 		
 		
 		
