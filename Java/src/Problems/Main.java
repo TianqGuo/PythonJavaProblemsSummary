@@ -271,7 +271,11 @@ public class Main {
 //		ArrayDeduplication4 ad4 = new ArrayDeduplication4();
 //		System.out.println(Arrays.toString(ad4.dedup(new int[] {1,1,2,3,3,3,2,1,6})));
 		
-		
+//		NodesDistanceKInBT
+		SerializeDeserializeBT sdbt = new SerializeDeserializeBT();
+		TreeNode root = sdbt.deserialize("1 2 3 6 7 4 5 8 9 10 11 12 13 14");
+		NodesDistanceKInBT ndkb = new NodesDistanceKInBT();
+		System.out.println(ndkb.distanceK(root, root.left, 2));
 		
 		
 		
