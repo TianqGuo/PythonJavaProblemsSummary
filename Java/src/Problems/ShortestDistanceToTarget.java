@@ -45,6 +45,8 @@ Date: 6/24/2021
 
 package Problems;
 
+import java.util.*;
+
 public class ShortestDistanceToTarget {
 	public List<Integer> shortestDistanceColor(int[] colors, int[][] queries) {
         List<Integer> ans = new ArrayList<>();
