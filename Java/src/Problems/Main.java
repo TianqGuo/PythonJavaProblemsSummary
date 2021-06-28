@@ -277,9 +277,13 @@ public class Main {
 //		NodesDistanceKInBT ndkb = new NodesDistanceKInBT();
 //		System.out.println(ndkb.distanceK(root, root.left, 2));
 		
-//		InterleavingString
-		InterleavingString ils = new InterleavingString();
-		System.out.println(ils.isInterleave("aabcc", "dbbca", "aadbbcbcac"));
+////		InterleavingString
+//		InterleavingString ils = new InterleavingString();
+//		System.out.println(ils.isInterleave("aabcc", "dbbca", "aadbbcbcac"));
+		
+//		SplitArrayLargestSum
+		SplitArrayLargestSum sals = new SplitArrayLargestSum();
+		System.out.println(sals.splitArray(new int[] {7,2,5,10,8}, 2));
 		
 	}
 }
