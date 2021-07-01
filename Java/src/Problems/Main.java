@@ -281,9 +281,12 @@ public class Main {
 //		InterleavingString ils = new InterleavingString();
 //		System.out.println(ils.isInterleave("aabcc", "dbbca", "aadbbcbcac"));
 		
-//		SplitArrayLargestSum
-		SplitArrayLargestSum sals = new SplitArrayLargestSum();
-		System.out.println(sals.splitArray(new int[] {7,2,5,10,8}, 2));
+////		SplitArrayLargestSum
+//		SplitArrayLargestSum sals = new SplitArrayLargestSum();
+//		System.out.println(sals.splitArray(new int[] {7,2,5,10,8}, 2));
 		
+//		GreyCode
+		GreyCode gc = new GreyCode();
+		System.out.println(gc.grayCode(5));		
 	}
 }
