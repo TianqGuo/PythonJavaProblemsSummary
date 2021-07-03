@@ -48,7 +48,7 @@ public class Heap {
 			}
 			
 			int candidate = childLeft; 
-			if (array[candidate] > array[childRight]) {
+			if (childRight < size && array[candidate] > array[childRight]) {
 				candidate = childRight;
 			}
 			
