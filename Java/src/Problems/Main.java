@@ -285,8 +285,38 @@ public class Main {
 //		SplitArrayLargestSum sals = new SplitArrayLargestSum();
 //		System.out.println(sals.splitArray(new int[] {7,2,5,10,8}, 2));
 		
-//		GreyCode
-		GreyCode gc = new GreyCode();
-		System.out.println(gc.grayCode(5));		
+////		GreyCode
+//		GreyCode gc = new GreyCode();
+//		System.out.println(gc.grayCode(5));		
+		
+//		Heap Implementation
+		Heap pq = new Heap(5);
+		System.out.println(pq.size());
+		System.out.println(pq.isEmpty());
+		System.out.println(pq.peek());
+		pq.offer(1);
+		System.out.println(pq.size());
+		System.out.println(pq.isEmpty());
+		pq.offer(3);
+		pq.offer(-1);
+		System.out.println(pq.peek());
+		System.out.println(Arrays.toString(pq.array));
+		pq.offer(-5);
+		System.out.println(pq.size());
+		System.out.println(Arrays.toString(pq.array));
+		pq.offer(10);
+		System.out.println(Arrays.toString(pq.array));
+		System.out.println(pq.peek());
+		System.out.println(pq.poll());
+		System.out.println(Arrays.toString(pq.array));
+		System.out.println(pq.poll());
+		System.out.println(pq.poll());
+		System.out.println(pq.poll());
+		System.out.println(pq.poll());
+		
+		
+		
+		
+		
 	}
 }
