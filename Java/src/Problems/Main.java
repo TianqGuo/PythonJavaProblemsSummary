@@ -8,7 +8,7 @@ Date: 12/31/2020
 
 package Problems;
 
-import java.util.Arrays;
+import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -289,32 +289,53 @@ public class Main {
 //		GreyCode gc = new GreyCode();
 //		System.out.println(gc.grayCode(5));		
 		
-//		Heap Implementation
-		Heap pq = new Heap(5);
-		System.out.println(pq.size());
-		System.out.println(pq.isEmpty());
-		System.out.println(pq.peek());
-		pq.offer(1);
-		System.out.println(pq.size());
-		System.out.println(pq.isEmpty());
-		pq.offer(3);
-		pq.offer(-1);
-		System.out.println(pq.peek());
-		System.out.println(Arrays.toString(pq.array));
-		pq.offer(-5);
-		System.out.println(pq.size());
-		System.out.println(Arrays.toString(pq.array));
-		pq.offer(10);
-		System.out.println(Arrays.toString(pq.array));
-		System.out.println(pq.peek());
-		System.out.println(pq.poll());
-		System.out.println(Arrays.toString(pq.array));
-		System.out.println(pq.poll());
-		System.out.println(pq.poll());
-		System.out.println(pq.poll());
-		System.out.println(pq.poll());
+////		Heap Implementation
+//		Heap pq = new Heap(5);
+//		System.out.println(pq.size());
+//		System.out.println(pq.isEmpty());
+//		System.out.println(pq.peek());
+//		pq.offer(1);
+//		System.out.println(pq.size());
+//		System.out.println(pq.isEmpty());
+//		pq.offer(3);
+//		pq.offer(-1);
+//		System.out.println(pq.peek());
+//		System.out.println(Arrays.toString(pq.array));
+//		pq.offer(-5);
+//		System.out.println(pq.size());
+//		System.out.println(Arrays.toString(pq.array));
+//		pq.offer(10);
+//		System.out.println(Arrays.toString(pq.array));
+//		System.out.println(pq.peek());
+//		System.out.println(pq.poll());
+//		System.out.println(Arrays.toString(pq.array));
+//		System.out.println(pq.poll());
+//		System.out.println(pq.poll());
+//		System.out.println(pq.poll());
+//		System.out.println(pq.poll());
+		
+		Set<List<Integer>> set = new HashSet<>();
+		List<Integer> list1 = Arrays.asList(1,2,3);
+		List<Integer> list2 = Arrays.asList(1,2,3);
+		set.add(list1);
+		System.out.println(set.contains(list2));
+		System.out.println(list1.equals(list2));
+		list1.set(0,11);
+		System.out.println(set.contains(list2));
+		System.out.println(list1.equals(list2));
+		list2.set(0,11);
+		System.out.println(set.contains(list2));
+		System.out.println(list1.equals(list2));
+		
+		list1.set(0,1);
+		list2.set(0,1);
+		System.out.println(set.contains(list2));
+		System.out.println(list1.equals(list2));
 		
 		
+//		list2.set(0,2);
+//		list2.set(1,11);
+//		System.out.println(set.contains(list2));
 		
 		
 		
