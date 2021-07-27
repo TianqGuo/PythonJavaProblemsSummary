@@ -314,29 +314,31 @@ public class Main {
 //		System.out.println(pq.poll());
 //		System.out.println(pq.poll());
 		
-		Set<List<Integer>> set = new HashSet<>();
-		List<Integer> list1 = Arrays.asList(1,2,3);
-		List<Integer> list2 = Arrays.asList(1,2,3);
-		set.add(list1);
-		System.out.println(set.contains(list2));
-		System.out.println(list1.equals(list2));
-		list1.set(0,11);
-		System.out.println(set.contains(list2));
-		System.out.println(list1.equals(list2));
-		list2.set(0,11);
-		System.out.println(set.contains(list2));
-		System.out.println(list1.equals(list2));
-		
-		list1.set(0,1);
-		list2.set(0,1);
-		System.out.println(set.contains(list2));
-		System.out.println(list1.equals(list2));
+//		Set<List<Integer>> set = new HashSet<>();
+//		List<Integer> list1 = Arrays.asList(1,2,3);
+//		List<Integer> list2 = Arrays.asList(1,2,3);
+//		set.add(list1);
+//		System.out.println(set.contains(list2));
+//		System.out.println(list1.equals(list2));
+//		list1.set(0,11);
+//		System.out.println(set.contains(list2));
+//		System.out.println(list1.equals(list2));
+//		list2.set(0,11);
+//		System.out.println(set.contains(list2));
+//		System.out.println(list1.equals(list2));
+//		
+//		list1.set(0,1);
+//		list2.set(0,1);
+//		System.out.println(set.contains(list2));
+//		System.out.println(list1.equals(list2));
 		
 		
 //		list2.set(0,2);
 //		list2.set(1,11);
 //		System.out.println(set.contains(list2));
 		
+		validPairs vp = new validPairs();
+		vp.indentation(2);
 		
 		
 	}
