@@ -336,9 +336,15 @@ public class Main {
 //		list2.set(0,2);
 //		list2.set(1,11);
 //		System.out.println(set.contains(list2));
+//		
+//		validPairs vp = new validPairs();
+//		vp.indentation(2);
 		
-		validPairs vp = new validPairs();
-		vp.indentation(2);
+		RotateMatrix rm = new RotateMatrix();
+		int[][] test1 = new int[][] {{1,2,3}, {4,5,6}, {7,8,9}};
+		rm.rotate(test1);
+		System.out.println(Arrays.deepToString(test1));
+		
 		
 		
 	}
