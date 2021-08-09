@@ -340,12 +340,17 @@ public class Main {
 //		validPairs vp = new validPairs();
 //		vp.indentation(2);
 		
-		RotateMatrix rm = new RotateMatrix();
-		int[][] test1 = new int[][] {{1,2,3}, {4,5,6}, {7,8,9}};
-		rm.rotate(test1);
-		System.out.println(Arrays.deepToString(test1));
+//		RotateMatrix rm = new RotateMatrix();
+//		int[][] test1 = new int[][] {{1,2,3}, {4,5,6}, {7,8,9}};
+//		rm.rotate(test1);
+//		System.out.println(Arrays.deepToString(test1));
 		
+//		DeepCopyGraph dcg = new DeepCopyGraph();
+//		dcg.copy(Arrays.asList(new GraphNode(1), ) )
 		
+//		minDifference
+		MinDifference md = new MinDifference();
+		System.out.println(md.minDifference(new int[] {3,8,0,0,0,0}));
 		
 	}
 }
