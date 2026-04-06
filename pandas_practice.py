@@ -140,10 +140,10 @@ class PandasTest:
         print(df_csv.head(3))
 
         # Useful read_csv options:
-        #   usecols=['scenario_id', 'realism_score']  → load only specific columns
-        #   nrows=100                                  → load only first 100 rows
-        #   parse_dates=['run_date']                   → auto-parse date columns
-        #   skiprows=1                                 → skip the first row
+        #   usecols=['scenario_id', 'realism_score']  =>load only specific columns
+        #   nrows=100                                  =>load only first 100 rows
+        #   parse_dates=['run_date']                   =>auto-parse date columns
+        #   skiprows=1                                 =>skip the first row
 
         # ── JSON ─────────────────────────────────────────────────────────────
         json_path = 'sample_output.json'
@@ -229,18 +229,18 @@ class PandasTest:
         # KS test: are v1 and v2 realism score distributions the same shape?
         ks_stat, ks_pval = ks_2samp(v1_scores, v2_scores)
         print(f"KS test  (v1 vs v2 distribution): stat={ks_stat:.4f}, p={ks_pval:.4f}")
-        print(f"  → {'Distributions differ significantly' if ks_pval < 0.05 else 'No significant difference in distribution'}")
+        print(f"  =>{'Distributions differ significantly' if ks_pval < 0.05 else 'No significant difference in distribution'}")
 
         # T-test: is the mean realism score significantly different between v1 and v2?
         t_stat, t_pval = ttest_ind(v1_scores, v2_scores)
         print(f"\nT-test   (v1 vs v2 mean):          stat={t_stat:.4f}, p={t_pval:.4f}")
-        print(f"  → {'Means differ significantly' if t_pval < 0.05 else 'No significant difference in means'}")
+        print(f"  =>{'Means differ significantly' if t_pval < 0.05 else 'No significant difference in means'}")
 
         # Pearson r: does scenario_id (order of run) correlate with realism score?
         # In real usage this would be a meaningful feature like speed or complexity
         r, r_pval = pearsonr(clean['scenario_id'], clean['realism_score'])
         print(f"\nPearson r (scenario_id vs score):  r={r:.4f}, p={r_pval:.4f}")
-        print(f"  → {'Significant linear correlation' if r_pval < 0.05 else 'No significant linear correlation'}")
+        print(f"  =>{'Significant linear correlation' if r_pval < 0.05 else 'No significant linear correlation'}")
 
     # ── Test 12: Time series ──────────────────────────────────────────────────
     # The run_date column has hourly timestamps — two common patterns:
